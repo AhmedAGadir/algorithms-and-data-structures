@@ -30,7 +30,7 @@ strings.splice(2, 0, 'alien') // O(n)
 // 2 types of arrays: static and fixed
 // static arrays - fixed length
 // dynamic arrays - variable length - allow us to copy and rebuild arrays at a new location
-
+// dynamic arrays work by creating an array with a fixed size (e.g. 7), however when its necessary to exceed the limit, the items are copied to an array of 2x size (e.g. 14)
 
 // C++ - memory allocatiion
 // int a[20];

@@ -56,6 +56,7 @@ class HashTable {
     set(key, value) { // O(1)
         let address = this._hash(key);
         if (!this.data[address]) {
+            // could use a linked list here instead of an array 
             this.data[address] = [];
         }
         this.data[address].push([key, value]);
