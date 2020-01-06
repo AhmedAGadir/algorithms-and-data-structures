@@ -3,6 +3,14 @@
 // can only ever access first/last elements
 // having these limited operations is useful as it limits what can be done with them
 
+// props
+// fast operations
+// fast peak
+// ordered
+// cons 
+// slow lookup
+
+
 // ••••••••• Stacks - think stack of plates •••••••••
 
 // LIFO -> last in, first out

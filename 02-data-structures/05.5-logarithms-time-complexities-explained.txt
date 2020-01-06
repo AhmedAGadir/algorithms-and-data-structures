@@ -1,0 +1,6 @@
+in CS, logarithms almost always use a base 2. (because were typically halving a data set- a base of 10 would be 10th'ing)
+
+binary search (used to search an ordered list for a value):
+for n items, we will need to do at most log(base 2)(n) operations to find the position of an element
+
+for sorting it will be: n * log(n) operations, because we will be halving the data set n times and traversing the halves (o(n) complexity).
