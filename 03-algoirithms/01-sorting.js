@@ -189,3 +189,5 @@ console.log(quickSort(numbers));
 // this takes advantage of how numbers are stored in our computer as 0's and 1's
 // can get v. complicated
 // non-comparison sorts work only for: (a) numbers (b) within a specific range
+
+// didnt cover heap sort *****
